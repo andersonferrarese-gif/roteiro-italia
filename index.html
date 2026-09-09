@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Roteiro Itália • Base em Bergamo (Milão, Como e Verona) — 10 a 12/09/2026</title>
+<title>Roteiro Itália • Base em Bergamo (Milão+Verona, Bernina e Como) — 10 a 12/09/2026</title>
 <style>
   :root{
     --bg:#f6f4ef; --ink:#1c1a17; --muted:#6b6457; --card:#fff; --line:#e5dfd3;
@@ -17,13 +17,14 @@
   header.hero{background:linear-gradient(135deg,#0d3b2e 0%,#157347 50%,#c0392b 100%);color:#fff;padding:46px 20px 38px;text-align:center}
   header.hero .eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:.72rem;opacity:.85}
   header.hero h1{font-size:2.3rem;margin:.4rem 0 .2rem;font-weight:800;letter-spacing:-.02em}
-  header.hero p.sub{font-size:1.02rem;margin:.3rem auto 0;max-width:860px;opacity:.95}
+  header.hero p.sub{font-size:1.02rem;margin:.3rem auto 0;max-width:880px;opacity:.95}
   .chips{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
   .chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:7px 15px;font-size:.88rem;font-weight:600}
 
   .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:22px 0;box-shadow:0 2px 10px rgba(0,0,0,.04)}
   .panel h2{margin:0 0 6px;font-size:1.3rem}
   .panel .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+  .panel h3{margin:0 0 6px;font-size:1.05rem}
 
   .progress{background:linear-gradient(135deg,#eef6f0,#fff);border:1px solid #cfe4d6;border-radius:16px;padding:18px 22px;margin:22px 0}
   .progress .bar{height:12px;background:#e0ece4;border-radius:999px;overflow:hidden;margin:10px 0 6px}
@@ -84,6 +85,7 @@
 
   .note{background:#f2efe7;border-left:3px solid var(--accent-2);border-radius:6px;padding:10px 12px;font-size:.88rem;margin:10px 0}
   .note.green{border-left-color:var(--ok);background:#eef6ee}
+  .note.blue{border-left-color:var(--accent);background:#eef4fb}
   .kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem;margin:8px 0}
   .kv .k{color:var(--muted);font-weight:700}
   a.inline{color:var(--accent)}
@@ -98,12 +100,12 @@
 <header class="hero">
   <div class="eyebrow">Roteiro de viagem • Itália • Setembro 2026</div>
   <h1>🇮🇹 Base em Bergamo</h1>
-  <p class="sub"><strong>Dormindo em Bergamo todos os dias</strong> • Dia 1: <strong>Milão (Duomo) + Bergamo</strong> • Dia 2: <strong>Lago de Como</strong> • Dia 3: <strong>Verona</strong> • início quinta 10/09 às 07h, fim sábado 12/09 às 23h.</p>
+  <p class="sub"><strong>Dormindo em Bergamo todos os dias</strong> • Dia 1: <strong>Milão (Duomo) + Verona</strong> • Dia 2: <strong>Bernina Express / St. Moritz</strong> (reservado) • Dia 3: <strong>Lago de Como</strong> • início quinta 10/09 às 07h, fim sábado 12/09 às 23h.</p>
   <div class="chips">
     <span class="chip">🏨 Base: Bergamo</span>
-    <span class="chip">Dia 1 • Milão (Duomo) + Bergamo</span>
-    <span class="chip">Dia 2 • Lago de Como (ida e volta)</span>
-    <span class="chip">Dia 3 • Verona</span>
+    <span class="chip">Dia 1 • Milão (Duomo) + Verona</span>
+    <span class="chip">Dia 2 • Bernina / St. Moritz (✅ reservado)</span>
+    <span class="chip">Dia 3 • Lago de Como</span>
   </div>
 </header>
 
@@ -117,7 +119,7 @@
   <section class="progress">
     <div style="display:flex;justify-content:space-between;align-items:center">
       <strong>✅ Progresso da viagem</strong>
-      <span class="txt" id="progTxt">0 de 18</span>
+      <span class="txt" id="progTxt">0 de 20</span>
     </div>
     <div class="bar"><div id="progBar"></div></div>
   </section>
@@ -129,70 +131,63 @@
 
   <section class="panel">
     <h2>🚆 Transporte (quais trens e balsas pegar)</h2>
-    <div class="note green">🏨 <strong>Sua estação em Bergamo:</strong> acomodação na <strong>Via Borgo Palazzo 1</strong> → a estação é a <strong>Bergamo (Stazione FS — Piazzale Marconi)</strong>, de onde saem todos os trens. Fica a ~1,8–2 km / <strong>20–25 min a pé</strong>, ou de <strong>ônibus ATB / bonde T1</strong> (parada "Borgo Palazzo") em ~10–15 min.</div>
+    <div class="note green">🏨 <strong>Sua estação em Bergamo:</strong> acomodação na <strong>Via Borgo Palazzo 1</strong> → estação <strong>Bergamo (Stazione FS — Piazzale Marconi)</strong>, ~1,8–2 km / <strong>20–25 min a pé</strong>, ou <strong>ônibus ATB / bonde T1</strong> (parada "Borgo Palazzo") em ~10–15 min.</div>
     <div class="kv">
-      <span class="k">Bergamo → Milano Centrale</span><span><strong>Trenord/Trenitalia</strong>, ≈ 50 min. Depois metrô <strong>M3</strong> até o Duomo (~15 min).</span>
-      <span class="k">Milano Centrale → Bergamo (volta)</span><span><strong>Trenord/Trenitalia</strong>, ≈ 50 min.</span>
-      <span class="k">Bergamo → Varenna</span><span><strong>Trenord</strong>: Bergamo → Lecco (~45 min) → Varenna-Esino (~35 min). ≈ 1h20.</span>
-      <span class="k">Varenna ↔ Bellagio / Lenno</span><span><strong>Balsa (Navigazione Laghi)</strong>, ≈ 15 min cada trecho.</span>
-      <span class="k">Varenna → Bergamo (volta)</span><span><strong>Trenord</strong>: Varenna-Esino → Lecco → Bergamo. ≈ 1h20.</span>
-      <span class="k">Bergamo → Verona</span><span><strong>Trenitalia/Trenord</strong>: Bergamo → Brescia → Verona. ≈ 1h45.</span>
-      <span class="k">Verona → Bergamo (volta)</span><span><strong>Trenitalia/Trenord</strong>: Verona → Brescia → Bergamo. ≈ 1h45.</span>
+      <span class="k">Dia 1 — Bergamo → Milano Centrale</span><span><strong>Trenord/Trenitalia</strong>, ≈ 50 min. Depois metrô <strong>M3</strong> até o Duomo.</span>
+      <span class="k">Dia 1 — Milano → Verona</span><span><strong>Frecciarossa</strong> ≈ 1h15 (compre antes).</span>
+      <span class="k">Dia 1 — Verona → Bergamo</span><span><strong>Trenitalia/Trenord</strong>: Verona → Brescia → Bergamo. ≈ 1h45.</span>
+      <span class="k">Dia 2 — Bergamo → Milano Porta Garibaldi</span><span><strong>Trem cedo</strong> (≈ 50 min) + <strong>metrô M2</strong> até Garibaldi (se chegar em Centrale).</span>
+      <span class="k">Dia 3 — Bergamo → Varenna</span><span><strong>Trenord</strong>: Bergamo → Lecco → Varenna-Esino. ≈ 1h20.</span>
+      <span class="k">Dia 3 — Varenna ↔ Bellagio / Lenno</span><span><strong>Balsa (Navigazione Laghi)</strong>, ≈ 15 min cada trecho.</span>
+      <span class="k">Dia 3 — Varenna → Bergamo</span><span><strong>Trenord</strong>: Varenna-Esino → Lecco → Bergamo. ≈ 1h20.</span>
     </div>
     <div class="links">
       <a href="https://www.trenord.it/" target="_blank" rel="noopener">Trenord</a>
       <a href="https://www.trenitalia.com/" target="_blank" rel="noopener">Trenitalia</a>
-      <a href="https://www.navigazionelaghi.it/" target="_blank" rel="noopener">Balsas do Lago (Navigazione Laghi)</a>
+      <a href="https://www.atm.it/" target="_blank" rel="noopener">ATM Milano (metrô)</a>
+      <a href="https://www.navigazionelaghi.it/" target="_blank" rel="noopener">Balsas do Lago</a>
     </div>
     <div class="note">🛄 <strong>Bagagem:</strong> como você volta a Bergamo todo dia, deixe a mala grande no hotel e leve só uma mochila nos bate-e-voltas.</div>
   </section>
 
   <section class="panel">
     <h2>🎟️ Onde comprar os ingressos</h2>
-    <h3>Transporte</h3>
     <div class="kv">
-      <span class="k">🚆 Regionais (Trenord/Trenitalia)</span><span>Na hora: <strong>máquinas nas estações</strong>, bilheteria ou app. Sem reserva.</span>
-      <span class="k">🚄 Frecciarossa (se usar)</span><span>Compre <strong>antes</strong> no site/app Trenitalia (mais barato).</span>
-      <span class="k">🚇 Metrô M3 de Milão</span><span>Máquinas da ATM na estação ou <strong>pagamento contactless</strong> no validador.</span>
-      <span class="k">⛴️ Balsas do Lago de Como</span><span>Bilheteria <strong>no píer</strong> ou online (Navigazione Laghi).</span>
-    </div>
-    <h3>Atrações</h3>
-    <div class="kv">
-      <span class="k">⛪ Duomo di Milano</span><span>Entrada da catedral <strong>grátis</strong>; <strong>rooftop pago</strong> — site oficial.</span>
-      <span class="k">🌿 Villa Monastero (Varenna)</span><span>No local ou online.</span>
-      <span class="k">🌸 Villa Melzi (Bellagio)</span><span>No local.</span>
-      <span class="k">🏛️ Villa del Balbianello (Lenno)</span><span>Jardim no local; <strong>casa só por visita guiada — reserve antes</strong> (FAI).</span>
-      <span class="k">🏟️ Arena / 💕 Julieta / 🏰 Castelvecchio</span><span>Bilheteria na entrada ou <strong>Verona Card</strong>.</span>
-      <span class="k">🎫 Verona Card</span><span>24h/48h — cobre Arena, Casa de Julieta, Torre dei Lamberti, Castelvecchio etc.</span>
+      <span class="k">🚄 Frecciarossa Milão–Verona</span><span>Compre <strong>antes</strong> no site/app Trenitalia.</span>
+      <span class="k">🚆 Regionais (Trenord/Trenitalia)</span><span>Na hora: máquinas nas estações, bilheteria ou app.</span>
+      <span class="k">🚇 Metrô de Milão (M2/M3)</span><span>Máquinas da ATM ou <strong>pagamento contactless</strong>.</span>
+      <span class="k">⛴️ Balsas do Lago de Como</span><span>Bilheteria no píer ou online.</span>
+      <span class="k">⛪ Duomo di Milano</span><span>Entrada grátis; rooftop pago (site oficial).</span>
+      <span class="k">🏟️ Verona (Arena, Julieta, Castelvecchio)</span><span>Bilheteria ou <strong>Verona Card</strong>.</span>
+      <span class="k">🌿 Villa Monastero / 🌸 Villa Melzi</span><span>No local ou online.</span>
+      <span class="k">🏛️ Villa del Balbianello</span><span>Jardim no local; casa só com reserva (FAI).</span>
+      <span class="k">🚂 Bernina / St. Moritz</span><span>✅ <strong>Já reservado</strong> (ref. GYGZGZRX28YV).</span>
     </div>
     <div class="links">
       <a href="https://www.trenitalia.com/" target="_blank" rel="noopener">Trenitalia</a>
-      <a href="https://www.atm.it/" target="_blank" rel="noopener">ATM Milano (metrô)</a>
+      <a href="https://www.atm.it/" target="_blank" rel="noopener">ATM Milano</a>
       <a href="https://www.navigazionelaghi.it/" target="_blank" rel="noopener">Balsas do Lago</a>
       <a href="https://www.duomomilano.it/" target="_blank" rel="noopener">Duomo di Milano</a>
-      <a href="https://www.villamonastero.eu/" target="_blank" rel="noopener">Villa Monastero</a>
+      <a href="https://www.veronacitycard.com/" target="_blank" rel="noopener">Verona Card</a>
       <a href="https://fondoambiente.it/luoghi/villa-del-balbianello" target="_blank" rel="noopener">Villa del Balbianello</a>
-      <a href="https://www.veronacitycard.com/" target="_blank" rel="noopener">Verona Card (site oficial)</a>
     </div>
-    <div class="note green">💡 A <strong>Verona Card</strong> (24h/48h) costuma compensar: dá acesso à Arena, Casa de Julieta, Torre dei Lamberti, Castelvecchio e outros, com fila reduzida.</div>
+    <div class="note green">💡 A <strong>Verona Card</strong> (24h) compensa no Dia 1 (Arena + Julieta + Torre + Castelvecchio em um dia).</div>
   </section>
 
   <!-- ================= DIA 1 ================= -->
   <section class="day">
-    <div class="day-head"><span class="num">Dia 1</span><h2>Quinta, 10/09/2026 — Milão (Duomo) + Bergamo</h2></div>
-    <p class="day-theme">Manhã: <strong>Duomo di Milano</strong> (único ponto em Milão). Tarde: Bergamo "espremida" (Città Alta + Città Bassa).</p>
+    <div class="day-head"><span class="num">Dia 1</span><h2>Quinta, 10/09/2026 — Milão (Duomo) + Verona</h2></div>
+    <p class="day-theme">Manhã: <strong>Duomo di Milano</strong> (único ponto em Milão). Tarde: <strong>Verona</strong>. Retorno a Bergamo à noite.</p>
     <ul class="tl">
-      <li><span class="dot">1</span><div class="t">07h00 — Café da manhã em Bergamo</div><div class="d"></div><label><input type="checkbox" class="prog" data-id="saida"> Saí (07h)</label></li>
+      <li><span class="dot">1</span><div class="t">07h00 — Café da manhã e saída</div><div class="d">Hotel → estação Bergamo.</div><label><input type="checkbox" class="prog" data-id="saida"> Saí (07h)</label></li>
       <li><span class="dot">2</span><div class="t">07h30–08h20 — Trem Bergamo → Milano Centrale</div><div class="d">≈ 50 min.</div><label><input type="checkbox" class="prog" data-id="tremmilao"> Trem até Milão</label></li>
-      <li><span class="dot">3</span><div class="t">08h20–08h40 — Metrô M3 até o Duomo</div><div class="d">Linha M3 (amarela), estação Duomo.</div></li>
-      <li><span class="dot">4</span><div class="t">08h45–09h45 — Duomo di Milano (único ponto)</div><div class="d">Praça + fachada (grátis) e interior (grátis). Rooftop é pago/opcional.</div><label><input type="checkbox" class="prog" data-id="duomo"> Duomo visitado</label></li>
+      <li><span class="dot">3</span><div class="t">08h25–08h40 — Metrô M3 até o Duomo</div><div class="d">Linha M3 (amarela), estação Duomo.</div></li>
+      <li><span class="dot">4</span><div class="t">08h45–09h45 — Duomo di Milano (único ponto)</div><div class="d">Praça + fachada (grátis) e interior (grátis). Rooftop pago/opcional.</div><label><input type="checkbox" class="prog" data-id="duomo"> Duomo visitado</label></li>
       <li><span class="dot">5</span><div class="t">09h45–10h05 — Metrô de volta a Centrale</div><div class="d"></div></li>
-      <li><span class="dot">6</span><div class="t">10h20–11h10 — Trem Milano → Bergamo</div><div class="d">≈ 50 min.</div><label><input type="checkbox" class="prog" data-id="voltamilao"> Retorno a Bergamo</label></li>
-      <li><span class="dot">7</span><div class="t">11h30–12h30 — Almoço em Bergamo</div><div class="d"></div></li>
-      <li><span class="dot">8</span><div class="t">12h45 — Funicular p/ Città Alta</div><div class="d">Funicolare Città Alta.</div></li>
-      <li><span class="dot">9</span><div class="t">13h00–16h30 — Città Alta (espremida)</div><div class="d">Piazza Vecchia, Basilica di Santa Maria Maggiore, Cappella Colleoni, Battistero, Rocca e muralhas.</div><label><input type="checkbox" class="prog" data-id="cittaalta"> Città Alta visitada</label></li>
-      <li><span class="dot">10</span><div class="t">16h30–18h00 — San Vigilio (opcional) ou Città Bassa</div><div class="d">Segundo funicular + vista, ou Accademia Carrara / Via XX Settembre.</div><label><input type="checkbox" class="prog" data-id="cittabassa"> Città Bassa visitada</label></li>
-      <li><span class="dot">11</span><div class="t">19h00–21h00 — Jantar em Bergamo</div><div class="d">+ gelato na La Marianna. Dormir em Bergamo 🏨.</div></li>
+      <li><span class="dot">6</span><div class="t">10h25–11h40 — Frecciarossa Milano → Verona</div><div class="d">≈ 1h15 (reserve antes).</div><label><input type="checkbox" class="prog" data-id="tremverona"> Trem até Verona</label></li>
+      <li><span class="dot">7</span><div class="t">11h50–17h30 — Verona</div><div class="d">Arena, Piazza Bra, Casa de Julieta, Piazza delle Erbe + Torre, Castelvecchio + almoço.</div></li>
+      <li><span class="dot">8</span><div class="t">17h30–19h15 — Trem Verona → Brescia → Bergamo</div><div class="d">≈ 1h45.</div><label><input type="checkbox" class="prog" data-id="voltaverona"> Retorno a Bergamo</label></li>
+      <li><span class="dot">9</span><div class="t">19h30 — Jantar em Bergamo</div><div class="d">Opcional: Città Alta iluminada à noite. Dormir em Bergamo 🏨.</div><label><input type="checkbox" class="prog" data-id="cittaalta"> Città Alta à noite (opcional)</label></li>
     </ul>
     <div class="cards">
       <article class="card" id="card-duomo">
@@ -201,7 +196,7 @@
           <h3>Duomo di Milano</h3>
           <span class="time">08h45 – 09h45</span>
           <div class="meta">Piazza del Duomo — metrô M3 (estação Duomo)</div>
-          <p class="hist">A maior catedral gótica da Itália, iniciada em <strong>1386</strong> e concluída ao longo de séculos, com <strong>135 torres e milhares de estátuas</strong>. Em Milão, visite <strong>apenas o Duomo</strong>: a praça e a fachada são gratuitas; o interior é grátis; o <strong>terraço (rooftop)</strong> é pago e opcional.</p>
+          <p class="hist">A maior catedral gótica da Itália, iniciada em <strong>1386</strong>, com <strong>135 torres e milhares de estátuas</strong>. Em Milão, visite <strong>apenas o Duomo</strong>: praça e fachada grátis; interior grátis; rooftop pago/opcional.</p>
           <div class="links">
             <a href="https://www.duomomilano.it/" target="_blank" rel="noopener">Site oficial</a>
             <a class="wiki" href="https://en.wikipedia.org/wiki/Milan_Cathedral" target="_blank" rel="noopener">História (Wikipedia)</a>
@@ -210,57 +205,141 @@
           <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="duomo"> <span>Visitado ✔</span></label></div>
         </div>
       </article>
-      <article class="card" id="card-cittaalta">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Bergamo_citt%C3%A0_alta3.jpg/1280px-Bergamo_citt%C3%A0_alta3.jpg" alt="Bergamo Città Alta" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 1</span></div>
+      <article class="card" id="card-arena">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Italy_-_Verona_-_Arena.jpg/1280px-Italy_-_Verona_-_Arena.jpg" alt="Arena di Verona" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Verona</span></div>
         <div class="body">
-          <h3>Città Alta de Bergamo</h3>
-          <span class="time">13h00 – 16h30</span>
-          <div class="meta">Bergamo — cidade alta medieval (UNESCO: muralhas venezianas)</div>
-          <p class="hist">Centro histórico murado no alto da colina, com a <strong>Piazza Vecchia</strong>, o <strong>Palazzo della Ragione</strong>, a <strong>Basilica di Santa Maria Maggiore</strong> e a <strong>Cappella Colleoni</strong> (obra-prima renascentista). As muralhas venezianas (séc. XVI) são Patrimônio da Humanidade. Suba de funicular.</p>
+          <h3>Arena di Verona</h3>
+          <span class="time">≈ 12h00 – 12h45</span>
+          <div class="meta">Piazza Bra — anfiteatro romano do séc. I d.C.</div>
+          <p class="hist">Anfiteatro romano construído no <strong>ano 30 d.C.</strong>, um dos mais bem preservados do mundo. Ainda recebe óperas (Festival de Verona).</p>
           <div class="links">
-            <a href="https://www.visitbergamo.net/" target="_blank" rel="noopener">Turismo de Bergamo</a>
-            <a class="wiki" href="https://en.wikipedia.org/wiki/Bergamo" target="_blank" rel="noopener">História (Wikipedia)</a>
-            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Citta+Alta+Bergamo" target="_blank" rel="noopener">📍 Mapa</a>
+            <a href="https://www.arena.it/" target="_blank" rel="noopener">Arena di Verona</a>
+            <a class="wiki" href="https://en.wikipedia.org/wiki/Verona_Arena" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Arena+di+Verona" target="_blank" rel="noopener">📍 Mapa</a>
           </div>
-          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="cittaalta"> <span>Visitada ✔</span></label></div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="arena"> <span>Visitada ✔</span></label></div>
+        </div>
+      </article>
+      <article class="card" id="card-giulietta">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Juliet%27s_house_balcony_-_Verona_%2815280188788%29.jpg/1280px-Juliet%27s_house_balcony_-_Verona_%2815280188788%29.jpg" alt="Casa de Julieta" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Verona</span></div>
+        <div class="body">
+          <h3>Casa di Giulietta (Casa de Julieta)</h3>
+          <span class="time">≈ 13h00 – 13h30</span>
+          <div class="meta">Via Cappello, 23</div>
+          <p class="hist">Casa medieval com o <strong>famoso balcão</strong> associado a <strong>Romeu e Julieta</strong>. O pátio com a estátua de Julieta é um dos pontos mais fotografados da Itália.</p>
+          <div class="links">
+            <a class="wiki" href="https://en.wikipedia.org/wiki/Juliet%27s_House" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Casa+di+Giulietta+Verona" target="_blank" rel="noopener">📍 Mapa</a>
+          </div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="giulietta"> <span>Visitada ✔</span></label></div>
+        </div>
+      </article>
+      <article class="card" id="card-castelvecchio">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/The_Keep_of_Castelvecchio_and_Ponte_Scaligero_Verona_Italy.jpg/1280px-The_Keep_of_Castelvecchio_and_Ponte_Scaligero_Verona_Italy.jpg" alt="Castelvecchio e Ponte Scaligero" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Verona</span></div>
+        <div class="body">
+          <h3>Castelvecchio + Ponte Scaligero</h3>
+          <span class="time">≈ 15h00 – 15h45</span>
+          <div class="meta">Rio Adige</div>
+          <p class="hist">Castelo medieval dos <strong>Scaligeri</strong> (séc. XIV), hoje museu de arte, ligado à fortificada <strong>Ponte Scaligero</strong> sobre o rio Adige.</p>
+          <div class="links">
+            <a href="https://museodicastelvecchio.comune.verona.it/" target="_blank" rel="noopener">Museu Castelvecchio</a>
+            <a class="wiki" href="https://en.wikipedia.org/wiki/Castelvecchio_(Verona)" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Castelvecchio+Verona" target="_blank" rel="noopener">📍 Mapa</a>
+          </div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="castelvecchio"> <span>Visitado ✔</span></label></div>
         </div>
       </article>
     </div>
     <div class="restaurants">
-      <h4>🍝 Restaurantes em Bergamo</h4>
+      <h4>🍝 Restaurantes em Verona (almoço)</h4>
       <div class="rest-list">
-        <div class="rest"><b>Trattoria Parietti (Città Alta)</b><span class="p">Cozinha bergamasca (casoncelli, polenta) • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Trattoria+Parietti+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>Da Mimmo (Città Alta)</b><span class="p">Trattoria/pizzaria local querida • €–€€</span><a href="https://www.google.com/maps/search/?api=1&query=Da+Mimmo+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>La Marianna (Città Alta)</b><span class="p">Gelateria histórica (criadora da stracciatella) • €</span><a href="https://www.google.com/maps/search/?api=1&query=La+Marianna+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
+        <div class="rest"><b>Trattoria al Pompiere</b><span class="p">Histórica — risoto all'Amarone, bollito • €€–€€€</span><a href="https://www.google.com/maps/search/?api=1&query=Trattoria+al+Pompiere+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
+        <div class="rest"><b>Osteria Sottoriva</b><span class="p">Osteria tradicional, pratos veroneses • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Osteria+Sottoriva+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
+        <div class="rest"><b>Pizzeria Da Salvatore</b><span class="p">Pizza local • €</span><a href="https://www.google.com/maps/search/?api=1&query=Pizzeria+Da+Salvatore+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
+        <div class="rest"><b>Gelateria La Romana</b><span class="p">Gelato artesanal • €</span><a href="https://www.google.com/maps/search/?api=1&query=Gelateria+La+Romana+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
       </div>
     </div>
   </section>
 
   <!-- ================= DIA 2 ================= -->
   <section class="day">
-    <div class="day-head"><span class="num">Dia 2</span><h2>Sexta, 11/09/2026 — Lago de Como (bate-e-volta)</h2></div>
-    <p class="day-theme">Varenna + balsa para Bellagio + Villa del Balbianello. Retorno a Bergamo à noite.</p>
+    <div class="day-head"><span class="num">Dia 2</span><h2>Sexta, 11/09/2026 — Bernina Express / St. Moritz ✅</h2></div>
+    <p class="day-theme">Passeio <strong>reservado</strong> (City Wonders): "From Milan: St. Moritz & Alpine day trip with the Bernina Red Train". Saída 07h15 de Milano Porta Garibaldi.</p>
+
+    <div class="note blue">🎫 <strong>Reserva confirmada</strong><br>• Referência: <strong>GYGZGZRX28YV</strong> (PIN: <strong>yd8Yk1bb</strong>)<br>• Data: sexta 11/09/2026, início <strong>07h15</strong><br>• 5 adultos (Anderson Ferrarese) • Idioma: <strong>Inglês</strong> • ~11h • €484,50 (total)</div>
+    <div class="note">📍 <strong>Ponto de encontro:</strong> <strong>Porta Garibaldi, Milano</strong> — em frente à entrada principal da estação, à <strong>esquerda</strong>, junto ao <strong>Briccocafé</strong>, ao lado das escadas, sob a marquise coberta. Procure a placa <strong>"City Wonders"</strong>. <strong>Chegue às 06h55</strong> (20 min antes).</div>
+
+    <ul class="tl">
+      <li><span class="dot">1</span><div class="t">05h00 — Acordar + café rápido</div><div class="d">Dia começa cedo!</div></li>
+      <li><span class="dot">2</span><div class="t">05h15 — Saída do hotel → estação Bergamo</div><div class="d">Recomendo <strong>táxi</strong> (~10 min) a essa hora, ou caminhada (~20 min).</div></li>
+      <li><span class="dot">3</span><div class="t">05h45 — Trem Bergamo → Milano (≈50 min)</div><div class="d">Confira o 1º trem no app Trenord (saem desde ~05h20).</div><label><input type="checkbox" class="prog" data-id="trembernina"> Trem cedo até Milão</label></li>
+      <li><span class="dot">4</span><div class="t">06h40 — Metrô M2 → Garibaldi</div><div class="d">Se o trem chegar em Centrale: linha M2 (verde) até Garibaldi (~5 min).</div></li>
+      <li><span class="dot">5</span><div class="t">06h55 — Check-in no ponto de encontro</div><div class="d">Porta Garibaldi, em frente ao Briccocafé (placa City Wonders).</div><label><input type="checkbox" class="prog" data-id="checkin"> Check-in feito</label></li>
+      <li><span class="dot">6</span><div class="t">07h15 — Partida do tour</div><div class="d">Ônibus privado com guia em inglês.</div></li>
+      <li><span class="dot">7</span><div class="t">Tour (≈11h)</div><div class="d">Ônibus → Passo do Bernina → <strong>St. Moritz</strong> (tempo livre) → trem vermelho do Bernina (Alp Grum) → <strong>Tirano</strong> → ônibus de volta.</div><label><input type="checkbox" class="prog" data-id="bernina"> Tour do Bernina feito</label></li>
+      <li><span class="dot">8</span><div class="t">≈ 18h15 — Retorno a Porta Garibaldi (Milão)</div><div class="d"></div></li>
+      <li><span class="dot">9</span><div class="t">18h30–19h30 — Trem Milano → Bergamo</div><div class="d">≈ 50 min.</div><label><input type="checkbox" class="prog" data-id="voltabernina"> Retorno a Bergamo</label></li>
+      <li><span class="dot">10</span><div class="t">20h00 — Jantar em Bergamo</div><div class="d">Dormir em Bergamo 🏨.</div></li>
+    </ul>
+    <div class="cards">
+      <article class="card" id="card-bernina">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/RhB_ABe_4-4_III_Kreisviadukt_Brusio.jpg/1280px-RhB_ABe_4-4_III_Kreisviadukt_Brusio.jpg" alt="Trem do Bernina no viaduto de Brusio" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 2</span></div>
+        <div class="body">
+          <h3>Bernina Red Train (trem vermelho do Bernina)</h3>
+          <span class="time">Tour 07h15 – ~18h15</span>
+          <div class="meta">Linha do Bernina — Patrimônio Mundial da UNESCO</div>
+          <p class="hist">Uma das viagens de trem mais cênicas da Europa: geleiras, lagos turquesa e o famoso <strong>viaduto em espiral de Brusio</strong>. O passeio inclui ônibus privado de Milão, bilhete da Bernina Railway, guia em inglês e fones para áudio-guia.</p>
+          <div class="links">
+            <a href="https://en.wikipedia.org/wiki/Bernina_railway" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Brusio+spiral+viaduct" target="_blank" rel="noopener">📍 Viaduto de Brusio</a>
+          </div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="bernina"> <span>Feito ✔</span></label></div>
+        </div>
+      </article>
+      <article class="card" id="card-stmoritz">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Sankt_Moritz_Lake_Piz_Muragl.jpg/1280px-Sankt_Moritz_Lake_Piz_Muragl.jpg" alt="Lago de St. Moritz" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Dia 2</span></div>
+        <div class="body">
+          <h3>St. Moritz (Suíça)</h3>
+          <span class="time">Tempo livre no tour (~1h)</span>
+          <div class="meta">Engadina — resort de luxo a ~1.800 m</div>
+          <p class="hist">Resort alpino elegante à beira do <strong>lago de St. Moritz</strong>. Aproveite para caminhar à beira do lago e comprar <strong>chocolate suíço</strong>. Leve <strong>passaporte/identidade</strong> (atravessa a fronteira).</p>
+          <div class="links">
+            <a class="wiki" href="https://en.wikipedia.org/wiki/St._Moritz" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=St+Moritz+Lake" target="_blank" rel="noopener">📍 Mapa</a>
+          </div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="stmoritz"> <span>Visitado ✔</span></label></div>
+        </div>
+      </article>
+    </div>
+    <div class="note">🍽️ <strong>Almoço (Dia 2):</strong> por conta própria (em St. Moritz ou durante as paradas). Leve lanche, água e cartão (a Suíça usa <strong>Franco Suíço</strong>, mas cartão é aceito).</div>
+    <div class="note">🛂 <strong>Não esqueça:</strong> <strong>passaporte ou RG</strong> (atravessa a fronteira), calçado confortável, casaco. <strong>Sem malas/bagagem grande</strong> no ônibus.</div>
+  </section>
+
+  <!-- ================= DIA 3 ================= -->
+  <section class="day">
+    <div class="day-head"><span class="num">Dia 3</span><h2>Sábado, 12/09/2026 — Lago de Como (bate-e-volta)</h2></div>
+    <p class="day-theme">Varenna + balsa para Bellagio + Villa del Balbianello. Retorno a Bergamo à noite (fim 23h).</p>
     <ul class="tl">
       <li><span class="dot">1</span><div class="t">07h00 — Café da manhã em Bergamo</div><div class="d"></div></li>
-      <li><span class="dot">2</span><div class="t">07h30–08h50 — Trem Bergamo → Lecco → Varenna</div><div class="d">≈ 1h20 no total (troca em Lecco).</div><label><input type="checkbox" class="prog" data-id="tremcomo"> Trem até Varenna</label></li>
+      <li><span class="dot">2</span><div class="t">07h30–08h50 — Trem Bergamo → Lecco → Varenna</div><div class="d">≈ 1h20 no total.</div><label><input type="checkbox" class="prog" data-id="tremcomo"> Trem até Varenna</label></li>
       <li><span class="dot">3</span><div class="t">09h00–10h15 — Varenna + Villa Monastero</div><div class="d">Vilarejo colorido + jardins da Villa Monastero.</div><label><input type="checkbox" class="prog" data-id="varenna"> Varenna visitada</label></li>
-      <li><span class="dot">4</span><div class="t">10h30–10h45 — Balsa Varenna → Bellagio</div><div class="d">Navigazione Laghi, ≈ 15 min.</div><label><input type="checkbox" class="prog" data-id="balsa"> Balsa feita</label></li>
+      <li><span class="dot">4</span><div class="t">10h30–10h45 — Balsa Varenna → Bellagio</div><div class="d">≈ 15 min.</div><label><input type="checkbox" class="prog" data-id="balsa"> Balsa feita</label></li>
       <li><span class="dot">5</span><div class="t">10h45–13h00 — Bellagio + Villa Melzi</div><div class="d">Centrinho, Punta Spartivento e jardins da Villa Melzi.</div><label><input type="checkbox" class="prog" data-id="bellagio"> Bellagio visitada</label></li>
       <li><span class="dot">6</span><div class="t">13h00–14h00 — Almoço em Bellagio</div><div class="d"></div></li>
       <li><span class="dot">7</span><div class="t">14h15–15h00 — Balsa Bellagio → Lenno</div><div class="d">≈ 15 min.</div></li>
       <li><span class="dot">8</span><div class="t">15h00–16h30 — Villa del Balbianello</div><div class="d">Villa famosa (cenário de filmes) + jardins.</div><label><input type="checkbox" class="prog" data-id="balbianello"> Villa visitada</label></li>
       <li><span class="dot">9</span><div class="t">16h30–17h00 — Balsa Lenno → Varenna</div><div class="d"></div></li>
       <li><span class="dot">10</span><div class="t">17h15–18h35 — Trem Varenna → Lecco → Bergamo</div><div class="d">≈ 1h20.</div><label><input type="checkbox" class="prog" data-id="voltacomo"> Retorno a Bergamo</label></li>
-      <li><span class="dot">11</span><div class="t">19h00–21h00 — Jantar em Bergamo</div><div class="d">Dormir em Bergamo 🏨.</div></li>
+      <li><span class="dot">11</span><div class="t">19h00–23h00 — Jantar + encerramento</div><div class="d">Fim às 23h. Dormir em Bergamo 🏨.</div><label><input type="checkbox" class="prog" data-id="fim"> Encerrado (23h)</label></li>
     </ul>
     <div class="cards">
       <article class="card" id="card-varenna">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Varenna_%28175424103%29.jpeg/1280px-Varenna_%28175424103%29.jpeg" alt="Varenna" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 2</span></div>
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Varenna_%28175424103%29.jpeg/1280px-Varenna_%28175424103%29.jpeg" alt="Varenna" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 3</span></div>
         <div class="body">
           <h3>Varenna</h3>
           <span class="time">09h00 – 10h15</span>
           <div class="meta">Margem leste do Lago de Como</div>
-          <p class="hist">Um dos vilarejos mais charmosos do lago: casinhas coloridas, a <strong>Passeggiata degli Innamorati</strong> (passarela à beira d'água) e os jardins da <strong>Villa Monastero</strong>. É o ponto de entrada vindo de trem (Lecco) e base das balsas.</p>
+          <p class="hist">Vilarejo charmoso com casinhas coloridas, a <strong>Passeggiata degli Innamorati</strong> e os jardins da <strong>Villa Monastero</strong>. Base das balsas.</p>
           <div class="links">
             <a href="https://www.villamonastero.eu/" target="_blank" rel="noopener">Villa Monastero</a>
             <a class="wiki" href="https://en.wikipedia.org/wiki/Varenna" target="_blank" rel="noopener">História (Wikipedia)</a>
@@ -270,12 +349,12 @@
         </div>
       </article>
       <article class="card" id="card-bellagio">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Town_of_Bellagio_%28Lake_Como%29_seen_from_the_lake_%2836722979021%29.jpg/1280px-Town_of_Bellagio_%28Lake_Como%29_seen_from_the_lake_%2836722979021%29.jpg" alt="Bellagio" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 2</span></div>
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Town_of_Bellagio_%28Lake_Como%29_seen_from_the_lake_%2836722979021%29.jpg/1280px-Town_of_Bellagio_%28Lake_Como%29_seen_from_the_lake_%2836722979021%29.jpg" alt="Bellagio" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 3</span></div>
         <div class="body">
           <h3>Bellagio</h3>
           <span class="time">10h45 – 13h00</span>
-          <div class="meta">"A pérola do lago" — ponta que divide o lago em dois braços</div>
-          <p class="hist">Famosa pelas vielas com escadarias, lojas e cafés, e pela ponta do <strong>Punta Spartivento</strong>. Vale incluir os jardins da <strong>Villa Melzi</strong>. Chega-se de balsa a partir de Varenna (≈15 min).</p>
+          <div class="meta">"A pérola do lago"</div>
+          <p class="hist">Vielas com escadarias, lojas e cafés, e a ponta do <strong>Punta Spartivento</strong>. Inclua os jardins da <strong>Villa Melzi</strong>.</p>
           <div class="links">
             <a href="https://www.giardinidivillamelzi.it/" target="_blank" rel="noopener">Villa Melzi</a>
             <a class="wiki" href="https://en.wikipedia.org/wiki/Bellagio,_Lombardy" target="_blank" rel="noopener">História (Wikipedia)</a>
@@ -285,12 +364,12 @@
         </div>
       </article>
       <article class="card" id="card-balbianello">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg/1280px-Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg" alt="Villa del Balbianello" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Dia 2</span></div>
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg/1280px-Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg" alt="Villa del Balbianello" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Dia 3</span></div>
         <div class="body">
           <h3>Villa del Balbianello (Lenno)</h3>
           <span class="time">15h00 – 16h30</span>
           <div class="meta">Acessível de balsa (Lenno) — gerida pela FAI</div>
-          <p class="hist">Villa romântica do séc. XVIII numa península arborizada, cenário de filmes como <em>Star Wars: Ataque dos Clones</em> e <em>007 – Casino Royale</em>. Os jardins e a loggia com vista para o lago são o destaque.</p>
+          <p class="hist">Villa romântica do séc. XVIII, cenário de filmes como <em>Star Wars</em> e <em>007 – Casino Royale</em>. Jardins e loggia com vista para o lago.</p>
           <div class="links">
             <a href="https://fondoambiente.it/luoghi/villa-del-balbianello" target="_blank" rel="noopener">Villa del Balbianello (FAI)</a>
             <a class="wiki" href="https://en.wikipedia.org/wiki/Villa_del_Balbianello" target="_blank" rel="noopener">História (Wikipedia)</a>
@@ -306,96 +385,31 @@
         <div class="rest"><b>Il Cavatappi (Varenna)</b><span class="p">Trattoria pequena, massas e peixe do lago • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Il+Cavatappi+Varenna" target="_blank" rel="noopener">📍 Mapa</a></div>
         <div class="rest"><b>Al Prato (Varenna)</b><span class="p">Cozinha moderna em praça • €€€</span><a href="https://www.google.com/maps/search/?api=1&query=Al+Prato+Varenna" target="_blank" rel="noopener">📍 Mapa</a></div>
         <div class="rest"><b>Trattoria San Giacomo (Bellagio)</b><span class="p">Massas e risotos • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Trattoria+San+Giacomo+Bellagio" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>La Punta (Bellagio)</b><span class="p">Vista para o lago no Punta Spartivento • €€€</span><a href="https://www.google.com/maps/search/?api=1&query=La+Punta+Bellagio" target="_blank" rel="noopener">📍 Mapa</a></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= DIA 3 ================= -->
-  <section class="day">
-    <div class="day-head"><span class="num">Dia 3</span><h2>Sábado, 12/09/2026 — Verona</h2></div>
-    <p class="day-theme">Dia inteiro em Verona (sem Milão). Retorno a Bergamo à noite (fim 23h).</p>
-    <ul class="tl">
-      <li><span class="dot">1</span><div class="t">07h00 — Café da manhã em Bergamo</div><div class="d"></div></li>
-      <li><span class="dot">2</span><div class="t">07h30–09h15 — Trem Bergamo → Brescia → Verona</div><div class="d">≈ 1h45.</div><label><input type="checkbox" class="prog" data-id="tremverona"> Trem até Verona</label></li>
-      <li><span class="dot">3</span><div class="t">09h30–10h15 — Arena di Verona</div><div class="d">Anfiteatro romano de ~2.000 anos.</div><label><input type="checkbox" class="prog" data-id="arena"> Arena visitada</label></li>
-      <li><span class="dot">4</span><div class="t">10h15–10h45 — Piazza Bra + Via Mazzini</div><div class="d">Praça principal + rua de compras.</div></li>
-      <li><span class="dot">5</span><div class="t">10h45–11h30 — Casa di Giulietta</div><div class="d">O famoso balcão de Romeu e Julieta.</div><label><input type="checkbox" class="prog" data-id="giulietta"> Casa de Julieta visitada</label></li>
-      <li><span class="dot">6</span><div class="t">11h30–12h30 — Piazza delle Erbe + Torre dei Lamberti</div><div class="d">Praça do mercado + subida à torre (vista).</div></li>
-      <li><span class="dot">7</span><div class="t">12h30–13h30 — Almoço em Verona</div><div class="d"></div></li>
-      <li><span class="dot">8</span><div class="t">13h30–14h30 — Castelvecchio + Ponte Scaligero</div><div class="d">Castelo medieval + ponte fortificada.</div><label><input type="checkbox" class="prog" data-id="castelvecchio"> Castelvecchio visitado</label></li>
-      <li><span class="dot">9</span><div class="t">14h30–15h30 — Ponte Pietra + Castel San Pietro</div><div class="d">Ponte romana + funicular/mirante panorâmico.</div><label><input type="checkbox" class="prog" data-id="sanpietro"> Mirante visitado</label></li>
-      <li><span class="dot">10</span><div class="t">15h30–18h00 — Livre</div><div class="d">Gelato, compras, Duomo di Verona, rio Adige.</div></li>
-      <li><span class="dot">11</span><div class="t">18h00–19h45 — Trem Verona → Brescia → Bergamo</div><div class="d">≈ 1h45.</div><label><input type="checkbox" class="prog" data-id="voltaverona"> Retorno a Bergamo</label></li>
-      <li><span class="dot">12</span><div class="t">20h00–23h00 — Jantar em Bergamo + encerramento</div><div class="d">Fim às 23h. Dormir em Bergamo 🏨.</div><label><input type="checkbox" class="prog" data-id="fim"> Encerrado (23h)</label></li>
-    </ul>
-    <div class="cards">
-      <article class="card" id="card-arena">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Italy_-_Verona_-_Arena.jpg/1280px-Italy_-_Verona_-_Arena.jpg" alt="Arena di Verona" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 3</span></div>
-        <div class="body">
-          <h3>Arena di Verona</h3>
-          <span class="time">09h30 – 10h15</span>
-          <div class="meta">Piazza Bra — anfiteatro romano do séc. I d.C.</div>
-          <p class="hist">Anfiteatro romano construído no <strong>ano 30 d.C.</strong>, um dos mais bem preservados do mundo. Ainda recebe óperas e shows (Festival de Verona). É o símbolo da cidade, ao lado da Piazza Bra.</p>
-          <div class="links">
-            <a href="https://www.arena.it/" target="_blank" rel="noopener">Arena di Verona</a>
-            <a class="wiki" href="https://en.wikipedia.org/wiki/Verona_Arena" target="_blank" rel="noopener">História (Wikipedia)</a>
-            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Arena+di+Verona" target="_blank" rel="noopener">📍 Mapa</a>
-          </div>
-          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="arena"> <span>Visitada ✔</span></label></div>
-        </div>
-      </article>
-      <article class="card" id="card-giulietta">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Juliet%27s_house_balcony_-_Verona_%2815280188788%29.jpg/1280px-Juliet%27s_house_balcony_-_Verona_%2815280188788%29.jpg" alt="Casa de Julieta" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge must">Dia 3</span></div>
-        <div class="body">
-          <h3>Casa di Giulietta (Casa de Julieta)</h3>
-          <span class="time">10h45 – 11h30</span>
-          <div class="meta">Via Cappello, 23</div>
-          <p class="hist">Casa medieval com o <strong>famoso balcão</strong> associado à história de <strong>Romeu e Julieta</strong> (de Shakespeare). O pátio com a estátua de Julieta é um dos pontos mais fotografados da Itália.</p>
-          <div class="links">
-            <a class="wiki" href="https://en.wikipedia.org/wiki/Juliet%27s_House" target="_blank" rel="noopener">História (Wikipedia)</a>
-            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Casa+di+Giulietta+Verona" target="_blank" rel="noopener">📍 Mapa</a>
-          </div>
-          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="giulietta"> <span>Visitada ✔</span></label></div>
-        </div>
-      </article>
-      <article class="card" id="card-castelvecchio">
-        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/The_Keep_of_Castelvecchio_and_Ponte_Scaligero_Verona_Italy.jpg/1280px-The_Keep_of_Castelvecchio_and_Ponte_Scaligero_Verona_Italy.jpg" alt="Castelvecchio e Ponte Scaligero" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Dia 3</span></div>
-        <div class="body">
-          <h3>Castelvecchio + Ponte Scaligero</h3>
-          <span class="time">13h30 – 14h30</span>
-          <div class="meta">Rio Adige</div>
-          <p class="hist">Castelo medieval dos <strong>Scaligeri</strong> (séc. XIV), hoje museu de arte, ligado à fortificada <strong>Ponte Scaligero</strong> sobre o rio Adige. Ótima vista e um passeio bonito ao longo do rio.</p>
-          <div class="links">
-            <a href="https://museodicastelvecchio.comune.verona.it/" target="_blank" rel="noopener">Museu Castelvecchio</a>
-            <a class="wiki" href="https://en.wikipedia.org/wiki/Castelvecchio_(Verona)" target="_blank" rel="noopener">História (Wikipedia)</a>
-            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Castelvecchio+Verona" target="_blank" rel="noopener">📍 Mapa</a>
-          </div>
-          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="castelvecchio"> <span>Visitado ✔</span></label></div>
-        </div>
-      </article>
-    </div>
-    <div class="restaurants">
-      <h4>🍝 Restaurantes em Verona</h4>
-      <div class="rest-list">
-        <div class="rest"><b>Trattoria al Pompiere</b><span class="p">Histórica — risoto all'Amarone, bollito • €€–€€€</span><a href="https://www.google.com/maps/search/?api=1&query=Trattoria+al+Pompiere+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>Osteria Sottoriva</b><span class="p">Osteria tradicional, pratos veroneses • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Osteria+Sottoriva+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>Pizzeria Da Salvatore</b><span class="p">Pizza local • €</span><a href="https://www.google.com/maps/search/?api=1&query=Pizzeria+Da+Salvatore+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
-        <div class="rest"><b>Gelateria La Romana</b><span class="p">Gelato artesanal • €</span><a href="https://www.google.com/maps/search/?api=1&query=Gelateria+La+Romana+Verona" target="_blank" rel="noopener">📍 Mapa</a></div>
+        <div class="rest"><b>La Punta (Bellagio)</b><span class="p">Vista para o lago • €€€</span><a href="https://www.google.com/maps/search/?api=1&query=La+Punta+Bellagio" target="_blank" rel="noopener">📍 Mapa</a></div>
       </div>
     </div>
   </section>
 
   <section class="panel">
+    <h2>🍝 Restaurantes em Bergamo (para os jantares)</h2>
+    <div class="rest-list">
+      <div class="rest"><b>Trattoria Parietti (Città Alta)</b><span class="p">Cozinha bergamasca (casoncelli, polenta) • €€</span><a href="https://www.google.com/maps/search/?api=1&query=Trattoria+Parietti+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
+      <div class="rest"><b>Da Mimmo (Città Alta)</b><span class="p">Trattoria/pizzaria local querida • €–€€</span><a href="https://www.google.com/maps/search/?api=1&query=Da+Mimmo+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
+      <div class="rest"><b>La Marianna (Città Alta)</b><span class="p">Gelateria histórica (stracciatella) • €</span><a href="https://www.google.com/maps/search/?api=1&query=La+Marianna+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
+      <div class="rest"><b>Polentone (Città Bassa)</b><span class="p">Polenta em várias versões • €</span><a href="https://www.google.com/maps/search/?api=1&query=Polentone+Bergamo" target="_blank" rel="noopener">📍 Mapa</a></div>
+    </div>
+  </section>
+
+  <section class="panel">
     <h2>💡 Dicas rápidas</h2>
-    <div class="note green">🎫 <strong>Frecciarossa Milão–Verona:</strong> se preferir ir de Milão a Verona no Dia 3, reserve antes. Mas com Bergamo como base, o caminho direto é Bergamo → Brescia → Verona (regionais, sem reserva).</div>
-    <div class="note">🚢 <strong>Balsas (Navigazione Laghi):</strong> confira o horário no app/site — a frequência é boa entre Varenna, Bellagio e Lenno, mas menor fora da alta temporada.</div>
-    <div class="note">🕐 <strong>Dia 1:</strong> Milão cedo + Bergamo à tarde é tranquilo (Bergamo Città Alta é compacta, ~3h são suficientes).</div>
-    <div class="note">🍷 <strong>Bergamo à noite:</strong> como você volta todo dia, aproveite os jantares em Bergamo (casoncelli, polenta, gelato da La Marianna).</div>
+    <div class="note">🕐 <strong>Dia 2 começa MUITO cedo (05h00)</strong> — confira o 1º trem Bergamo→Milão no app Trenord na véspera, ou reserve um táxi direto a Porta Garibaldi se preferir.</div>
+    <div class="note green">🎫 <strong>Já reservado:</strong> Bernina (ref. GYGZGZRX28YV). Ainda falta comprar: Frecciarossa Milão–Verona (Dia 1) e, se quiser, a Verona Card.</div>
+    <div class="note">🛂 <strong>Dia 2 (Suíça):</strong> leve <strong>passaporte/identidade</strong>, calçado confortável e casaco. Sem bagagem grande no ônibus.</div>
+    <div class="note">🍷 <strong>Bergamo à noite:</strong> como você volta todo dia, aproveite os jantares e a Città Alta iluminada.</div>
   </section>
 
   <footer>
-    <p>Horários de trens/balsas são aproximados — confirme em Trenord, Trenitalia e Navigazione Laghi no dia. Verifique aberturas (ex.: Villa del Balbianello e Villa Melzi) antes de ir.</p>
+    <p>Horários de trens/balsas são aproximados — confirme em Trenord, Trenitalia e Navigazione Laghi no dia. Verifique aberturas (Villa del Balbianello, Villa Melzi) antes de ir.</p>
     <p><a href="#" onclick="window.print();return false">Imprimir / salvar em PDF</a></p>
   </footer>
 </div>
@@ -413,21 +427,24 @@ var CHECKLIST = [
   {id:"saida",        label:"Saída em Bergamo (07h, quinta)"},
   {id:"tremmilao",    label:"Trem Bergamo → Milão (dia 1)"},
   {id:"duomo",        label:"Duomo di Milano (único ponto)"},
-  {id:"voltamilao",   label:"Retorno a Bergamo (dia 1)"},
-  {id:"cittaalta",    label:"Città Alta de Bergamo"},
-  {id:"cittabassa",   label:"Città Bassa / Accademia Carrara"},
-  {id:"tremcomo",     label:"Trem Bergamo → Varenna (dia 2)"},
+  {id:"tremverona",   label:"Frecciarossa Milão → Verona"},
+  {id:"arena",        label:"Arena de Verona"},
+  {id:"giulietta",    label:"Casa de Julieta"},
+  {id:"castelvecchio",label:"Castelvecchio + Ponte Scaligero"},
+  {id:"voltaverona",  label:"Retorno a Bergamo (dia 1)"},
+  {id:"cittaalta",    label:"Città Alta de Bergamo (à noite, opcional)"},
+  {id:"trembernina",  label:"Trem cedo Bergamo → Milão (dia 2)"},
+  {id:"checkin",      label:"Check-in no tour (06h55, Porta Garibaldi)"},
+  {id:"bernina",      label:"Bernina Red Train / St. Moritz (dia 2)"},
+  {id:"stmoritz",     label:"St. Moritz (tempo livre)"},
+  {id:"voltabernina", label:"Retorno a Bergamo (dia 2)"},
+  {id:"tremcomo",     label:"Trem Bergamo → Varenna (dia 3)"},
   {id:"varenna",      label:"Varenna + Villa Monastero"},
   {id:"balsa",        label:"Balsa Varenna → Bellagio"},
   {id:"bellagio",     label:"Bellagio + Villa Melzi"},
   {id:"balbianello",  label:"Villa del Balbianello"},
-  {id:"voltacomo",    label:"Retorno a Bergamo (dia 2)"},
-  {id:"tremverona",   label:"Trem Bergamo → Verona (dia 3)"},
-  {id:"arena",        label:"Arena de Verona"},
-  {id:"giulietta",    label:"Casa de Julieta"},
-  {id:"castelvecchio",label:"Castelvecchio + Ponte Scaligero"},
-  {id:"sanpietro",    label:"Castel San Pietro (mirante)"},
-  {id:"voltaverona",  label:"Retorno a Bergamo (sábado, 23h)"}
+  {id:"voltacomo",    label:"Retorno a Bergamo (dia 3)"},
+  {id:"fim",          label:"Encerramento (sábado, 23h)"}
 ];
 var LS_KEY = "roteiro_italia_progress";
 
