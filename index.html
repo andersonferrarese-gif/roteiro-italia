@@ -102,6 +102,7 @@
   <div class="chips">
     <span class="chip">Dia 1 • Bergamo</span>
     <span class="chip">Dia 2 • Lago de Como</span>
+    <span class="chip">Milão • só o Duomo</span>
     <span class="chip">Dia 3 • Verona</span>
   </div>
 </header>
@@ -116,7 +117,7 @@
   <section class="progress">
     <div style="display:flex;justify-content:space-between;align-items:center">
       <strong>✅ Progresso da viagem</strong>
-      <span class="txt" id="progTxt">0 de 15</span>
+      <span class="txt" id="progTxt">0 de 16</span>
     </div>
     <div class="bar"><div id="progBar"></div></div>
   </section>
@@ -134,6 +135,7 @@
       <span class="k">3. Varenna ↔ Bellagio / Lenno</span><span><strong>Balsa (Navigazione Laghi)</strong>, ≈ 15 min cada trecho.</span>
       <span class="k">4. Varenna-Esino → Milano Centrale</span><span><strong>Trenord</strong> (regional), ≈ 1h05.</span>
       <span class="k">5. Milano Centrale → Verona Porta Nuova</span><span><strong>Frecciarossa</strong> (≈ 1h15) ou regional (≈ 1h45).</span>
+      <span class="k">6. Milano Centrale → Duomo</span><span><strong>Metrô M3 (amarela)</strong>, ≈ 15 min até a estação "Duomo".</span>
     </div>
     <div class="links">
       <a href="https://www.trenord.it/" target="_blank" rel="noopener">Trenord</a>
@@ -141,6 +143,7 @@
       <a href="https://www.navigazionelaghi.it/" target="_blank" rel="noopener">Balsas do Lago (Navigazione Laghi)</a>
     </div>
     <div class="note green">Compre o <strong>Frecciarossa Milão–Verona com antecedência</strong> (mais barato). Os regionais Trenord e a balsa podem ser comprados na hora.</div>
+    <div class="note">🛄 <strong>Bagagem em Milão:</strong> a Milano Centrale tem depósito/armários — deixe a mala lá enquanto visita o Duomo e busque antes do trem para Verona.</div>
   </section>
 
   <!-- ================= DIA 1 ================= -->
@@ -186,7 +189,7 @@
   <!-- ================= DIA 2 ================= -->
   <section class="day">
     <div class="day-head"><span class="num">Dia 2</span><h2>Sexta, 11/09/2026 — Lago de Como</h2></div>
-    <p class="day-theme">Varenna + balsa para Bellagio + Villa del Balbianello. À noite, trem para Verona.</p>
+    <p class="day-theme">Varenna + balsa para Bellagio + Villa del Balbianello. À noite: parada no <strong>Duomo di Milano</strong> (único ponto em Milão) e trem para Verona.</p>
     <ul class="tl">
       <li><span class="dot">1</span><div class="t">08h00–09h00 — Café da manhã em Varenna</div><div class="d"></div></li>
       <li><span class="dot">2</span><div class="t">09h00–10h15 — Varenna + Villa Monastero</div><div class="d">Vilarejo colorido + jardins da Villa Monastero.</div><label><input type="checkbox" class="prog" data-id="varenna"> Varenna visitada</label></li>
@@ -196,9 +199,12 @@
       <li><span class="dot">6</span><div class="t">14h15–15h00 — Balsa Bellagio → Lenno</div><div class="d">≈ 15 min.</div></li>
       <li><span class="dot">7</span><div class="t">15h00–16h45 — Villa del Balbianello</div><div class="d">Villa famosa (cenário de filmes) + jardins.</div><label><input type="checkbox" class="prog" data-id="balbianello"> Villa visitada</label></li>
       <li><span class="dot">8</span><div class="t">17h00–17h40 — Balsa Lenno → Varenna (ou Menaggio)</div><div class="d">Retorno para pegar a bagagem.</div></li>
-      <li><span class="dot">9</span><div class="t">18h00–19h00 — Trem Varenna → Milano Centrale</div><div class="d">Trenord, ≈ 1h05.</div><label><input type="checkbox" class="prog" data-id="trem2"> Trem até Milão</label></li>
-      <li><span class="dot">10</span><div class="t">19h30–20h45 — Trem Milano → Verona</div><div class="d">Frecciarossa ≈ 1h15 (reserve antes).</div><label><input type="checkbox" class="prog" data-id="trem3"> Trem até Verona</label></li>
-      <li><span class="dot">11</span><div class="t">21h00 — Chegada a Verona</div><div class="d">Check-in + jantar.</div></li>
+      <li><span class="dot">9</span><div class="t">17h15–18h20 — Trem Varenna → Milano Centrale</div><div class="d">Trenord, ≈ 1h05.</div><label><input type="checkbox" class="prog" data-id="trem2"> Trem até Milão</label></li>
+      <li><span class="dot">10</span><div class="t">18h20–18h40 — Metrô M3 até o Duomo</div><div class="d">Deixe a bagagem no depósito da Centrale e pegue a linha <strong>M3</strong> (estação Duomo, ≈15 min).</div></li>
+      <li><span class="dot">11</span><div class="t">18h45–19h45 — Duomo di Milano (único ponto)</div><div class="d">Praça + fachada (grátis) e interior (grátis). Rooftop é pago/opcional.</div><label><input type="checkbox" class="prog" data-id="duomo"> Duomo visitado</label></li>
+      <li><span class="dot">12</span><div class="t">19h45–20h05 — Metrô de volta a Centrale</div><div class="d">Pegue a mala no depósito.</div></li>
+      <li><span class="dot">13</span><div class="t">20h20–21h35 — Trem Milano → Verona</div><div class="d">Frecciarossa ≈ 1h15 (reserve antes).</div><label><input type="checkbox" class="prog" data-id="trem3"> Trem até Verona</label></li>
+      <li><span class="dot">14</span><div class="t">21h45 — Chegada a Verona</div><div class="d">Check-in + jantar.</div></li>
     </ul>
     <div class="cards">
       <article class="card" id="card-varenna">
@@ -244,6 +250,21 @@
             <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Villa+del+Balbianello+Lenno" target="_blank" rel="noopener">📍 Mapa</a>
           </div>
           <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="balbianello"> <span>Visitada ✔</span></label></div>
+        </div>
+      </article>
+      <article class="card" id="card-duomo">
+        <div class="imgwrap"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Duomo_di_Milano_%28Milan_Cathedral%29.jpg/1280px-Duomo_di_Milano_%28Milan_Cathedral%29.jpg" alt="Duomo di Milano" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=fallbackImg()"><span class="badge">Milão • único ponto</span></div>
+        <div class="body">
+          <h3>Duomo di Milano</h3>
+          <span class="time">18h45 – 19h45</span>
+          <div class="meta">Piazza del Duomo — metrô M3 (estação Duomo)</div>
+          <p class="hist">A maior catedral gótica da Itália, iniciada em <strong>1386</strong> e concluída ao longo de séculos, com <strong>135 torres e milhares de estátuas</strong>. Em Milão, visite <strong>apenas o Duomo</strong>: a praça e a fachada são gratuitas; o interior é grátis; o <strong>terraço (rooftop)</strong> é pago e opcional.</p>
+          <div class="links">
+            <a href="https://www.duomomilano.it/" target="_blank" rel="noopener">Site oficial</a>
+            <a class="wiki" href="https://en.wikipedia.org/wiki/Milan_Cathedral" target="_blank" rel="noopener">História (Wikipedia)</a>
+            <a class="wiki" href="https://www.google.com/maps/search/?api=1&query=Duomo+di+Milano" target="_blank" rel="noopener">📍 Mapa</a>
+          </div>
+          <div class="foot"><label class="tick"><input type="checkbox" class="prog" data-id="duomo"> <span>Visitado ✔</span></label></div>
         </div>
       </article>
     </div>
@@ -364,6 +385,7 @@ var CHECKLIST = [
   {id:"bellagio",     label:"Bellagio + Villa Melzi"},
   {id:"balbianello",  label:"Villa del Balbianello"},
   {id:"trem2",        label:"Trem Varenna → Milão"},
+  {id:"duomo",        label:"Duomo di Milano (único ponto)"},
   {id:"trem3",        label:"Trem Milão → Verona"},
   {id:"arena",        label:"Arena de Verona"},
   {id:"giulietta",    label:"Casa de Julieta"},
